@@ -1,1 +1,146 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: #984e00; 
+}
 
+.bg-color1{
+	background: #392100;
+}
+.bg-color2{
+	background: #984e00;
+}
+.bg-color3{
+	background: #dde0e0;
+}
+
+/*for header*/
+.carousel-inner img {
+    width: 100%;
+    height: 270px;
+  }
+
+.navbar{
+  background: #392100;
+}
+
+.navbar-nav{
+	font-size: 20px;
+	color:white;
+}
+
+.navbar-nav img{
+	width: 35px;
+	height: 25px;
+}
+
+.navbar-nav a:hover,.nav a:hover{
+	background: #ccc;
+	
+}
+
+.navbar-nav a.active,#cat li a.active,.nav a.active {
+	background-color: #984e00;
+	color: white;
+}
+
+.search_input{
+	width: 300px;
+	font-size: 16px;
+	padding: 7px 3px 7px 40px;
+	border: none;
+	background-image: url("image/searchl.png");
+	background-position: 3%;
+	background-size: 30px;
+	background-repeat: no-repeat; 
+}
+
+/*search bar*/
+.result{
+    margin-top: 3px;
+    position: absolute; 
+    box-sizing: border-box;       
+    z-index: 999;
+    width: 300px;
+    background: white;
+        
+}
+/* Formatting result items */
+.result p{
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+.result p:hover{
+    background: #f2f2f2;
+    color: blue;
+}
+
+#cat a:hover{
+color: blue;
+		}
+
+.cover{
+	width: 115px;
+	height: 170px;
+	margin-top: 5px;
+}
+
+.remove{
+	background: #fff;
+	border: 1px solid red;
+}
+/*for pagination*/
+.page_count{
+	clear: both;
+	width: 1000px;
+	margin: 10px;
+}
+
+span.page_number{
+	float: left;
+	color: white;
+	padding: 5px 20px;
+ }
+
+ul.pagination{
+	clear: both;
+	overflow: hidden;
+	padding: 5px;
+	margin: 15px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.pagination a{
+	float: left;
+	padding: 5px 15px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc; 
+	border-bottom:1px solid #ccc;  
+	text-decoration: none;
+}
+
+.pagination a:hover{
+	background: #ccc;
+}
+
+
+#footer{
+			height: 60px;
+			background: #392100;
+			margin: 0;
+			clear: both;
+			width: auto;
+			overflow: hidden;
+
+		}
+
+
+.checked {
+  	color: orange;
+}
+	
